@@ -1,6 +1,14 @@
 # sim8080
 SIM808 GPS/GPRS/GSM arduino Uno Send data to your sever
 
+
+![](http://gpstest.edafait.com/sim808gps.jpg)
+[<img alt="alt_text" width="40px" src="http://gpstest.edafait.com/sim808gps.jpg" />](https://www.google.com/)
+
+[[http://gpstest.edafait.com/sim808gps.jpg]] 
+![Test Image 8](http://gpstest.edafait.com/sim808gps.jpg)
+
+
 # Case 1 Open GPS only
 ## SIM808 open GPS code 
 
@@ -193,39 +201,39 @@ SIM808 GPS/GPRS/GSM arduino Uno Send data to your sever
     delay(100);
     ShowSerialData();
 
-     mySerial.println("AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"");//setting the SAPBR, the connection type is using gprs
+     mySerial.println("AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"");
      delay(1000);
      ShowSerialData();
 
-     mySerial.println("AT+SAPBR=3,1,\"APN\",\"Mobinil\"");//setting the APN, the second need you fill in your local apn server
+     mySerial.println("AT+SAPBR=3,1,\"APN\",\"Mobinil\"");
      delay(4000);
      ShowSerialData();
 
-     mySerial.println("AT+SAPBR=1,1");//setting the SAPBR, for detail you can refer to the AT command mamual
+     mySerial.println("AT+SAPBR=1,1");
      delay(2000);
     ShowSerialData();
 
-    mySerial.println("AT+SAPBR=3,1");//setting the SAPBR, for detail you can refer to the AT command mamual
+    mySerial.println("AT+SAPBR=3,1");
     delay(2000);
     ShowSerialData();
 
-    mySerial.println("AT+SAPBR=2,1");//setting the SAPBR, for detail you can refer to the AT command mamual
+    mySerial.println("AT+SAPBR=2,1");
     delay(2000);
     ShowSerialData();
 
-    mySerial.println("AT+HTTPINIT"); //init the HTTP request
+    mySerial.println("AT+HTTPINIT"); 
     delay(2000); 
     ShowSerialData();
 
-    mySerial.println("AT+HTTPPARA=\"CID\",1"); //init the HTTP request
+    mySerial.println("AT+HTTPPARA=\"CID\",1");
     delay(2000); 
     ShowSerialData();
 
-    mySerial.println("AT+HTTPSSL=0");    // set SSL for HTTPS
+    mySerial.println("AT+HTTPSSL=0");    
     ShowSerialData();
     delay(1000);
  
-    mySerial.println("AT+HTTPSSL=1"); //init the HTTP request
+    mySerial.println("AT+HTTPSSL=1");
     delay(2000); 
     ShowSerialData();
 
