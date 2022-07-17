@@ -1,8 +1,12 @@
-# sim8080
+# GPS-Tracking-System 
 SIM808 GPS/GPRS/GSM arduino Uno Send data to your sever
+ARDUINO UNO with SIM808 GPS-GSM-GPRS Module Send Data to server
 
 
+The tracking is done by reading the GPS coordinates (longitude and latitude) and then sending them by using an HTTP request to a web server we used ARDUINO ide and server asp.net you can use any server PHP or ASP or...
 
+
+[![Watch the video](https://img.youtube.com/vi/euoNGz82mlk/0.jpg)](https://youtu.be/euoNGz82mlk)
 
 
 # Case 1 Open GPS only
