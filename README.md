@@ -2,11 +2,7 @@
 SIM808 GPS/GPRS/GSM arduino Uno Send data to your sever
 
 
-![](http://gpstest.edafait.com/sim808gps.jpg)
-[<img alt="alt_text" width="40px" src="http://gpstest.edafait.com/sim808gps.jpg" />](https://www.google.com/)
 
-[[http://gpstest.edafait.com/sim808gps.jpg]] 
-![Test Image 8](http://gpstest.edafait.com/sim808gps.jpg)
 
 
 # Case 1 Open GPS only
